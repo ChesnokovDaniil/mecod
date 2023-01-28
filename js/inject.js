@@ -63,7 +63,7 @@ if (!window.WebHighlightInject) {
                     }
                 }
                 const s = document.createElement("span");
-                s.style.background = "rgba(255,216,0,.8)";
+                s.style.background = "rgba(0,0,0,.8)";
                 const p = textEl.parentNode;
                 if (isFirst) {
                     const offsetText = document.createTextNode(startContent);
